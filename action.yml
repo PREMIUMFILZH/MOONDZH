@@ -1,0 +1,23 @@
+name: 海洋奇緣𝟸-線上看小鴨完整版-𝙷𝙳-𝟷𝟶𝟾𝟶𝚙~【Moana 2 2024】~ 看电影
+description: This is an action to assign yourself to an issue for a repo you are not a contributor to.
+author: PeterssKohuka
+branding:
+  icon: 'thumbs-up'
+  color: 'white'
+
+inputs: 
+  message:
+    description: 'Message to prospective contributor'
+    required: false
+    default: ''
+  issueCurrentlyAssignedMessage:
+    description: 'Message to contributors if issue is already assigned'
+    required: false
+    default: 'The issue you are trying to assign to yourself is already assigned.'
+  trigger:
+    description: 'The string that triggers the action'
+    required: false
+    default: '.take'
+  token:
+    description: 'The GitHub PAT used to authenticate when updating the Issue'
+    required: true
